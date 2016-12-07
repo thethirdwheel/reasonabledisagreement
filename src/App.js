@@ -66,15 +66,15 @@ class App extends Component {
               <List>
                 <ListItem>
                   <EpisodeCard number="1" title="Cultural Appropriation" trackNumber="290921819">
-                    You can find Rory's position essay <a href="https://docs.google.com/document/d/1gLkSHE-DZAYJPr_3WHASJ2uDIL7Mlaq4JyQYAQPo54s/edit?usp=sharing">here</a>. 
-                    Kevin doesn't write position essays yet.
-                    <br/>
-                    <br/>
                     <b>Show Notes</b>
                     <br/>
                     <br/>
                     <i>2:32:</i> Kevin is referring to Brandolini's law: "The amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it.": <a href="http://ordrespontane.blogspot.fr/2014/07/brandolinis-law.html">[1]</a> <br/>
                     <i>18:40:</i> The sushi crusade took place at Oberlin: <a href="http://www.theatlantic.com/politics/archive/2015/12/the-food-fight-at-oberlin-college/421401/">[2]</a><br/>
+                    <br/>
+                    <br/>
+                    You can find Rory's position essay <a href="https://docs.google.com/document/d/1gLkSHE-DZAYJPr_3WHASJ2uDIL7Mlaq4JyQYAQPo54s/edit?usp=sharing">here</a>. 
+                    Kevin doesn't write position essays yet.
                   </EpisodeCard>
                 </ListItem>
               </List>
