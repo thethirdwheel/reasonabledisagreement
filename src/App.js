@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { Icon, FABButton, Footer, Grid, Cell, List, ListItem, Layout, Header, Navigation, Content, Card, CardTitle, CardText, } from 'react-mdl';
+import { Icon, FABButton, Footer, List, ListItem, Layout, Header, Navigation, Content, Card, CardTitle, CardText, } from 'react-mdl';
 
 var pallet = {
   black: "#343330",
@@ -9,7 +9,6 @@ var pallet = {
   darkBlue: "#384E77",
   orange: "#F19953",
 }
-
 var SoundCloudEmbed = React.createClass({
   render : function() {
 
@@ -23,7 +22,7 @@ var SoundCloudEmbed = React.createClass({
 
     return (
       <div style={embedStyle}>
-        <iframe width="100%" height="166" scrolling="no" frameborder="no" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.props.trackNumber + "&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"}></iframe>
+        <iframe width="100%" height="166" scrolling="no" frameBorder="no" src={"https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/" + this.props.trackNumber + "&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"}></iframe>
       </div>
     )
   }
@@ -49,12 +48,12 @@ class App extends Component {
   render() {
     return (
       <Layout>
-        <Header style={{backgroundColor: pallet["black"], color: pallet["white"]}}title="Reasonable Disagreement" scroll>
-          <Navigation>
-            <FABButton style={{backgroundColor: pallet["orange"], color: pallet["white"]}}>
-              <Icon name="home" />
-            </FABButton>
-          </Navigation>
+        <Header style={{backgroundColor: pallet["black"], color: pallet["white"]}} title="Reasonable Disagreement" scroll>
+            <Navigation>
+              <FABButton style={{backgroundColor: pallet["orange"], color: pallet["white"]}}>
+                <Icon name="home" />
+              </FABButton>
+            </Navigation>
         </Header>
         <Content style={{backgroundColor: pallet["white"]}}>
           {/*<Grid noSpacing>
@@ -69,6 +68,10 @@ class App extends Component {
                   <EpisodeCard number="1" title="Cultural Appropriation" trackNumber="290921819">
                     You can find Rory's position essay <a href="https://docs.google.com/document/d/1gLkSHE-DZAYJPr_3WHASJ2uDIL7Mlaq4JyQYAQPo54s/edit?usp=sharing">here</a>. 
                     Kevin doesn't write position essays yet.
+
+                    <b>Show Notes</b>
+                    2:32: Kevin is referring to Brandolini's law: "The amount of energy needed to refute bullshit is an order of magnitude bigger than to produce it.": http://ordrespontane.blogspot.fr/2014/07/brandolinis-law.html
+                    18:40: The sushi crusade took place at Oberlin: http://www.theatlantic.com/politics/archive/2015/12/the-food-fight-at-oberlin-college/421401/
                   </EpisodeCard>
                 </ListItem>
               </List>
