@@ -9,8 +9,9 @@ var pallet = {
   darkBlue: "#384E77",
   orange: "#F19953",
 }
-var SoundCloudEmbed = React.createClass({
-  render : function() {
+
+class SoundCloudEmbed extends React.Component {
+  render() {
 
     var embedStyle = {
       padding: 10,
@@ -26,10 +27,10 @@ var SoundCloudEmbed = React.createClass({
       </div>
     )
   }
-});
+}
 
-var EpisodeCard = React.createClass({
-  render : function() {
+class EpisodeCard extends React.Component {
+  render() {
     return (
       <div>
         <Card shadow={0} style={{width: '850px', margin: 'auto', backgroundColor: pallet["white"]}}>
@@ -40,9 +41,9 @@ var EpisodeCard = React.createClass({
           </CardText> 
         </Card>
       </div>
-    )
+    );
   }
-});
+}
 
 class App extends Component {
   render() {
