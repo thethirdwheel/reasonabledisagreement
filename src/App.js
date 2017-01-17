@@ -66,6 +66,17 @@ class App extends Component {
             <Cell col={10}>*/}
               <List>
                 <ListItem>
+                  <EpisodeCard number="2" title="Christmas/New Years/MLK Episode: Star Wars vs Star Trek" trackNumber="303093454">
+                    <b>Show Notes</b>
+                    <br/>
+                    We sometimes refer to the Q-continuum as the collective; we couldn't be more sorry for this grievous error.
+                    <br/>
+                    Also, Rory talks too much in this episode.
+                    <br/>
+                    You can find Rory's research summary <a href="https://docs.google.com/document/d/10LcCxjJ0sj7lGk-afmZIizkP7qHblFxQG-lXDDXAvVg/edit?usp=sharing">here</a> 
+                  </EpisodeCard>
+                </ListItem>
+                <ListItem>
                   <EpisodeCard number="1" title="Cultural Appropriation" trackNumber="290921819">
                     <b>Show Notes</b>
                     <br/>
